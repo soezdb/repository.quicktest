@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< HEAD
 <addon id="repository.quicktest" name="Josephs Repo" version="0.0.1" provider-name="soezdb">
 	<extension point="xbmc.addon.repository" name="Josephs Repo">
 		<dir>
@@ -16,3 +17,26 @@
 		<genre>movies,trailers,tvshows,uk,usa</genre>
 	</extension>
 </addon>
+=======
+<addon id="plugin.video.testing" name="My Test Add-on" version="0.0.1" provider-name="Me">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Quick one liner about the add-on</summary>
+		<description lang="en">Full add-on description.</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>adult,livetv,movies,trailers,tvshows,uk,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+>>>>>>> 2cda139250e53ffd2dc58b17ca1b08ed4ca24658
